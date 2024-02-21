@@ -1,0 +1,70 @@
+
+<header>
+  <h1> I'm Yuna </h1>
+
+  <h2> My Best Friends 
+  <nav>
+    <a href="bff.html"> My Friend(s) </a>
+  </h2>
+  </nav>
+</header>
+
+<ul>
+  <li>
+    <img src="...">
+    <p> Hanae </p>
+    <p>We have been friend since we were Year 8.    </p>
+    <p>We were always being with together whater we do or go.</p>
+
+  </li>
+  <li>
+    <img src="...">
+    <p> Kiko </p>
+    <p>We have been frined since we were Year 7.</p>
+<p>Our family have been closed and visited events many times.</p> 
+ </li>
+ 
+ <li>
+    <img src="...">
+    <p> Ayaka </p>
+<P>We have been friend since we were Year 8.</P>
+<p>We formed a band and performed in front of the entire school. </p>  
+  </li>
+ </ul>
+
+<main>
+  <h2>
+    About Me
+  </h2>
+  
+  <p>
+    I love making new discover.
+  </p>
+  
+  <p>
+    My interests include:
+  </p>
+  
+  <ul>
+    <li> music </li>
+    <li> language </li>
+    <li> people </li>
+  </ul>
+</main>
+
+<footer>
+  <p>
+    &copy; Yuna 2024
+  </p>
+</footer>
+
+  <style>
+    h1,h2,ul{background-color: palevioletred;
+    color:black;
+    font-family: 'Protest Riot', sans-serif;
+    font-size:3em;
+    }
+    
+    footer{background-color: lightblue;}
+
+    </style>
