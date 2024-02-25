@@ -1,78 +1,117 @@
-<header>
-  <h1> I'm Yuna </h1>
+<body>
+  <header>
+    <h1> I'm Yuna </h1>
 
-  <h2> My Best Friends 
-  <nav>
-    <a href="bff.html"> My Friend(s) </a>
-  </h2>
-  </nav>
-</header>
+    <h2> My Best Friends
+      <nav>
+        <a href="bff.html"> My Friend(s) </a>
+    </h2>
+    </nav>
+  </header>
 
-<ul>
-  <li>
-    <img src="...">
-    <p> Hanae </p>
-    <p>We have been friend since we were Year 8.    </p>
-    <p>We were always being with together whater we do or go.</p>
-  </li>
-  <li>
-    <img src="...">
-    <p> Kiko </p>
-    <p>We have been frined since we were Year 7.</p>
-    <p>Our family have been closed and visited events many times.</p> 
- </li>
- <li>
-    <img src="...">
-    <p> Ayaka </p>
-    <P>We have been friend since we were Year 8.</P>
-    <p>We formed a band and performed in front of the entire school. </p>  
-  </li>
- </ul>
-
-<main>
-  <h2>
-    About Me
-  </h2>
-  
-  <p>
-    I love making new discover.
-  </p>
-  
-  <p class="nn">
-    My interests include:
-  </p>
-  
   <ul>
-    <li> music </li>
-    <li> language </li>
-    <li> people </li>
+    <li>
+      <img src="...">
+      <p> Hanae </p>
+      <p>We have been friend since we were Year 8. </p>
+      <p>We were always being with together whater we do or go.</p>
+    </li>
+    <li>
+      <img src="...">
+      <p> Kiko </p>
+      <p>We have been frined since we were Year 7.</p>
+      <p>Our family have been closed and visited events many times.</p>
+    </li>
+    <li>
+      <img src="...">
+      <p> Ayaka </p>
+      <P>We have been friend since we were Year 8.</P>
+      <p>We formed a band and performed in front of the entire school. </p>
+    </li>
   </ul>
-</main>
 
-<footer>
-  <p>
-    &copy; Yuna 2024
-  </p>
-</footer>
+  <main>
+    <h2>
+      About Me
+    </h2>
 
-  <style>
-    h1,h2,ul{background-color: palevioletred;
-    color:black;
+    <p>
+      I love making new discover.
+    </p>
+
+    <p class="nn">
+      My interests include:
+    </p>
+
+    <ul>
+      <li> music </li>
+      <li> language </li>
+      <li> people </li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>
+      &copy; Yuna 2024
+    </p>
+  </footer>
+</body>
+
+<style>
+  h1,
+  h2,
+  ul {
+    background-color: palevioletred;
+    color: black;
     font-family: 'Protest Riot', sans-serif;
-    }
-    h1{font-weight:800;
-    font-size:xx-large;}
-h2{font-weight:700;
-  font-size:x-large;}
+  }
 
-    .nn{margin-left:0%;
-    padding:1%;
-text-decoration:underline 3px navy;
-font-weight:600;
-}
+  h1 {
+    font-weight: 800;
+    font-size: xx-large;
+  }
 
-ul{font-size: large;}
+  h2 {
+    font-weight: 700;
+    font-size: x-large;
+  }
 
-    footer{background-color: lightblue;}
+  .nn {
+    margin-left: 0%;
+    padding: 1%;
+    text-decoration: underline 3px navy;
+    font-weight: 600;
+  }
 
-    </style>
+  ul {
+    font-size: large;
+  }
+
+  footer {
+    background-color: lightblue;
+  }
+
+  body {
+    display: grid;
+    grid: " h    h    h    " auto 
+          " m    u    u    " auto 
+          " m    .    f    " auto
+         / auto auto auto;
+  }
+
+  header {
+    grid-area: h;
+  }
+
+  ul {
+    grid-area: u;
+  }
+
+  main {
+    grid-area: m;
+  }
+
+  footer {
+    grid-area: f;
+  }
+</style>
